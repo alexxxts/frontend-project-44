@@ -2,6 +2,7 @@ import readlineSync from 'readline-sync';
 
 export const checkAnswer = () => {
   let number = 0;
+  let answer = '';
 
   for (let i = 0; i < 3; i += 1) {
     number = Math.random();
