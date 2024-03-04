@@ -1,0 +1,752 @@
+    1  sudo apt update && sudo apt upgrade
+    2  sudo apt-get update
+    3  code .
+    4  asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+    5  sudo apt install nodejs
+    6  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+    7  nvm install node
+    8  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    9  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   10  git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.1
+   11  echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
+   12  source ~/.bashrc
+   13  asdf plugin add nodejs
+   14  asdf install nodejs 21.6.1
+   15  asdf global nodejs 21.6.1
+   16  asdf current
+   17  node --version
+   18  node
+   19  cd ~
+   20  node
+   21  code .
+   22  node index.js
+   23  node G:\wd\JS\linux\001\index.js
+   24  sudo apt update && sudo apt upgrade
+   25  sudo apt-get update
+   26  asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+   27  sudo apt install nodejs
+   28  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   29  nvm install node
+   30  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   31  git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.1
+   32  echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
+   33  source ~/.bashrc
+   34  asdf plugin add nodejs
+   35  asdf install nodejs 21.6.1
+   36  asdf global nodejs 21.6.1
+   37  code .
+   38  node --version
+   39  node
+   40  dir
+   41  node index.js
+   42  lsb_release-a
+   43  lsb_release -a
+   44  node
+   45  node index.js
+   46  node -v
+   47  npm --version
+   48  pwd
+   49  ls -al
+   50  cd projects\pr001
+   51  cd .\projects\pr001
+   52  cd \projects\pr001
+   53  cd .projects\pr001
+   54  cd projects
+   55  cd pr001
+   56  npm init
+   57  nano package.json
+   58  node index.js
+   59  npm install lodash
+   60  tree -L 1
+   61  sudo apt install tree
+   62  tree -L 1
+   63  node index.js
+   64  npm install -g cloc
+   65  npm config ls -l
+   66  cd projects
+   67  cd pr001
+   68  cloc .
+   69  npm install --save-dev prettier
+   70  npm fund
+   71  cd projects
+   72  cd pr001
+   73  npm install --save-dev eslint
+   74  date
+   75  echo $SHELL
+   76  pwd
+   77  cd projects/
+   78  cd pr001
+   79  pwd
+   80  ls
+   81  cd ..
+   82  cd pr001
+   83  ls -a
+   84  man ls
+   85  man say
+   86  npm install say
+   87  npm install -g say
+   88  man say
+   89  man ls
+   90  say "Hello"
+   91  man say
+   92  typeof 3;
+   93  code .
+   94  node
+   95  npm install -g say
+   96  man say
+   97  man cat
+   98  cat .bash_logout
+   99  ls
+  100  ls -a
+  101  sudo add-apt-repository ppa:adiscon/v8-stable
+  102  sudo apt-get install rsyslog
+  103  sudo service rsyslog start
+  104  sudo tail -f syslog
+  105  cd ..
+  106  ls
+  107  cd..
+  108  cd ..
+  109  ls
+  110  cd var
+  111  ls
+  112  cd log
+  113  ls
+  114  sudo tail -f syslog
+  115  sudo less syslog
+  116  cd ..
+  117  ls
+  118  cd home
+  119  ls
+  120  ls -a
+  121  man grep
+  122  ls
+  123  ls -a
+  124  nano .bashrc
+  125  vim .bashrc
+  126  node .
+  127  node
+  128  echo $MYVAR1
+  129  echo $MYVAR
+  130  echo $MYVAR1
+  131  ps
+  132  ps -afx
+  133  exit
+  134  echo $MYVAR
+  135  MYVAR1=1730
+  136  echo $MYVAR1
+  137  bash
+  138  ps -afx
+  139  exit
+  140  export MYVAR=1729
+  141  echo $MYVAR
+  142  bash
+  143  ps -afx
+  144  exit
+  145  ls -a
+  146  ls -la
+  147  ls -la > output
+  148  ls -la
+  149  cat output
+  150  tac output
+  151  top
+  152  arch
+  153  lspci -tv
+  154  man find
+  155  man sort
+  156  man md
+  157  man mkdir
+  158  ls
+  159  cd projects
+  160  dir
+  161  mkdir test
+  162  ls
+  163  cd test
+  164  touch empty-file
+  165  ls
+  166  rm empty-file 
+  167  ls
+  168  man cp
+  169  cd
+  170  env
+  171  echo $HOME
+  172  bash
+  173  ps -afx
+  174  exit
+  175  ps -afx
+  176  export -p
+  177  ls -a
+  178  cat .bash-history
+  179  cat .bash_history
+  180  tail .bash_history
+  181  history
+  182  ls -a
+  183  history
+  184  history | grep export
+  185  logout
+  186  man fzf
+  187  man brew
+  188  brew install fzf
+  189  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  190  man brew
+  191  (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"')
+  192  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+  193  sudo apt-get install build-essential
+  194  brew install gcc
+  195  fzf
+  196  brew install fzf
+  197  man fzf
+  198  whoami
+  199  ps aux
+  200  man ps
+  201  id
+  202  cat /etc/passwd
+  203  id
+  204  uid
+  205  whoami
+  206  id
+  207  man id
+  208  id -u
+  209  man id
+  210  man sudoers
+  211  env
+  212  sudo -i
+  213  id
+  214  ls -la
+  215  man tree
+  216  tree
+  217  man apt
+  218  sudo apt update 
+  219  sudo apt install git-all
+  220  git --version
+  221  git config --global user.name "Sasha Tsaplin"
+  222  git config --global user.email "alexxxts@gmail.com"
+  223  node .
+  224  node.
+  225  node .
+  226  node
+  227  sudo apt install git
+  228  git --version
+  229  git config --list --show-origin
+  230  git config --list
+  231  ды
+  232  ls
+  233  cd projects
+  234  git init
+  235  ls -la
+  236  cd .git
+  237  ls -la
+  238  cd ..
+  239  mkdir hexlet-git
+  240  cd hexlet-git/
+  241  git init
+  242  ls -la
+  243  git status
+  244  echo 'Hello, Hexlet!' > README.md
+  245  echo 'Haskell Curry' > PEOPLE.md
+  246  ls
+  247  ls -la
+  248  git status
+  249  git add README.md 
+  250  git status
+  251  git commit -m 'add README.md'
+  252  cat README.md 
+  253  git status
+  254  git add PEOPLE.md
+  255  git commit -m 'add PEOPLE.md'
+  256  git status
+  257  git config --show-origin --get user.name
+  258  git config --list
+  259  ls -al ~/.ssh
+  260  ssh-keygen -t ed25519 -C "alexxxts@gmail.com"
+  261  eval "$(ssh-agent -s)"
+  262  ssh-add ~/.ssh/id_ed25519
+  263  cat ~/.ssh/id_ed25519.pub
+  264  ls -la
+  265  cd .ssh
+  266  ls -la
+  267  touch config
+  268  ls -la
+  269  nano config
+  270  cat config 
+  271  node
+  272  ls -la
+  273  cd .ssh
+  274  ls -la
+  275  cat id_ed25519.pub 
+  276  cat id_ed25519
+  277  Серега, если я на одном компе создал ssh key, прописал его на гитхабе, мне на другом компе нужно этот же ключ как-то привязать, либо на другом компе создать второй ключ и прописать его вторым ключAAD
+  278  Серега, если я на одном компе создал ssh key, прописал его на гитхабе, мне на другом компе нужно этот же ключ как-то привязать, либо на другом компе создать второй ключ и прописа
+  279  cd projects
+  280  ls -la
+  281  cd hexlet-git/
+  282  ls -la
+  283  git remote set-url origin git@github.com:alexxxts/hexlet-git.git
+  284  git remote add origin git@github.com:alexxxts/hexlet-git.git
+  285  git branch -M main
+  286  git push -u origin main
+  287  cat id_ed25519.pub 
+  288  ls -la
+  289  cat ~/.ssh/id_ed25519.pub 
+  290  git remote add origin git@github.com:alexxxts/hexlet-git.git
+  291  git branch -M main
+  292  git push -u origin main
+  293  cd .git
+  294  ls -la
+  295  cd ..
+  296  ls -la
+  297  cd ~
+  298  ls -la
+  299  cd .ssh
+  300  ls -la
+  301  chmod 600 id_ed25519.pub
+  302  ls -la
+  303  cd ..
+  304  cd projects/
+  305  cd hexlet-git/
+  306  git push -u origin main
+  307  git remote add origin git@github.com:alexxxts/hexlet-git.git
+  308  git branch -M main
+  309  git push -u origin main
+  310  ssh -T git@github.com
+  311  eval $(ssh-agent -s)
+  312  git push -u origin main
+  313  ssh-add -l -E sha256
+  314  ssh-keygen -t ed25519 -C "alexxxts@gmail.com"
+  315  eval "$(ssh-agent -s)"
+  316  ssh-add ~/.ssh/id_ed25519
+  317  cat ~/.ssh/id_ed25519.pub 
+  318  git remote add origin git@github.com:alexxxts/hexlet-git.git
+  319  git branch -M main
+  320  git push -u origin main
+  321  git pull
+  322  git push -u origin main
+  323  git branch --set-upstream-to=origin/<branch> main
+  324  git branch --set-upstream-to=origin/main main
+  325  git pull
+  326  git config pull.rebase false
+  327  git pull
+  328  git clone git@github.com:alexxxts/hexlet-git.git
+  329  git pull
+  330  git push -u origin main
+  331  git push
+  332  git pull origin main --allow-unrelated-histories
+  333  cd ..
+  334  rmdir hexlet-git/
+  335  rm hexlet-git/
+  336  rm -r hexlet-git/
+  337  ls -la
+  338  git clone git@github.com:alexxxts/hexlet-git.git
+  339  ls -la
+  340  cd hexlet-git/
+  341  ls -la
+  342  git pull
+  343  cat PEOPLE.md 
+  344  git pull
+  345  cat PEOPLE.md 
+  346  echo 'NEWNEWNEW' > NEW.md
+  347  ls -la
+  348  cat NEW.md 
+  349  git commit -a -m "added NEW.md"
+  350  git push
+  351  git add NEW.md 
+  352  git commit -a -m "added NEW.md"
+  353  git push
+  354  echo 'git is awesome!' > INFO.md
+  355  ls -la
+  356  git rm NEW.md 
+  357  ls -la
+  358  git add INFO.md 
+  359  git status
+  360  git commit -a -m "delete NEW & create INFO"
+  361  git push
+  362  echo 'new line' >> INFO.md
+  363  cat README.md 
+  364  echo 'Hello, Hexlet! How are you?' > README.md
+  365  cat README.md 
+  366  git status
+  367  git diff
+  368  git diff --staged
+  369  git diff
+  370  git commit -a -m "add new content"
+  371  git push
+  372  git log
+  373  git log -p
+  374  git show a68402d
+  375  git blame INFO.md
+  376  git grep line
+  377  git grep -i hexlet
+  378  git grep -i hexlet $(git rev-list --all)
+  379  mkdir one
+  380  ls -la
+  381  touch two
+  382  ls -la
+  383  git status 
+  384  git clean -fd
+  385  git status 
+  386  ls -la
+  387  тщву
+  388  node
+  389  cd prodject/hexlet-git
+  390  cd prodject
+  391  cd prodjects/hexlet-git
+  392  cd prodjects
+  393  ls -la
+  394  cd projects/hexlet-git
+  395  git log --online
+  396  git log
+  397  git log --oneline
+  398  ls -la
+  399  git checkout b6b8020
+  400  ls -la
+  401  git checkout main
+  402  ls -la
+  403  git branch
+  404  git checkout b6b8020
+  405  git branch
+  406  git checkout main
+  407  git branch
+  408  cd ~
+  409  ls -la
+  410  cat .bashrc
+  411  export PS1="💻 \[\e[1;34m\]\W\[\e[m\]\[\033[32m\]\$(__git_ps1)\[\033[00m\] $ "
+  412  cd projects/hexlet-git
+  413  git checkout b6b8020
+  414  git branch
+  415  git checkout main
+  416  git branch
+  417  git log --graph
+  418  cd projects/hexlet-git
+  419  git pull
+  420  git status
+  421  git pull
+  422  cat ~/.ssh/id_ed25519.pub 
+  423  git init
+  424  git pull
+  425  ssh-keygen -t ed25519 -C "alexxxts@gmail.com"
+  426  eval "$(ssh-agent -s)"
+  427  ssh-add ~/.ssh/id_ed25519
+  428  cat ~/.ssh/id_ed25519.pub 
+  429  git init
+  430  git status
+  431  git pull
+  432  ls -la
+  433  touch TEST01.md
+  434  git add TEST01.md 
+  435  git commit -m "add TEST01.md"
+  436  git push
+  437  git pull
+  438  touch FILE01.md
+  439  git add FILE01.md 
+  440  git status
+  441  git stash
+  442  git status
+  443  git stash pop
+  444  git status
+  445  cd projects/hexlet-git/
+  446  git status
+  447  ls -la
+  448  git log --oneline
+  449  node
+  450  git log --oneline --decorate
+  451  cd projects
+  452  ls -la
+  453  git clone
+  454  git clone git@github.com:alexxxts@gmail.com/frontend-project-44.git
+  455  git clone git@github.com:alexxxts/frontend-project-44.git
+  456  mkdir frontend-project-44
+  457  cd frontend-project-44/
+  458  git clone git@github.com:alexxxts/frontend-project-44.git
+  459  cd ~
+  460  git clone git@github.com:alexxxts/frontend-project-44.git
+  461  history
+  462  ssh-keygen -t ed25519 -C "alexxxts@gmail.com"
+  463  eval "$(ssh-agent -s)"
+  464  ssh-add ~/.ssh/id_ed25519
+  465  cat ~/.ssh/id_ed25519.pub
+  466  git clone git@github.com:alexxxts/frontend-project-44.git
+  467  ls -la
+  468  cd frontend-project-44/
+  469  git status
+  470  git log
+  471  apt-get update
+  472  cd ~
+  473  sudo apt-get update
+  474  sudo apt-get dist-upgrade
+  475  ls -la
+  476  cd frontend-project-44/
+  477  npm init
+  478  npm install -g npm@10.4.0
+  479  ls -la
+  480  mkdir bin
+  481  ls -la
+  482  touch brain-games.js
+  483  echo "console.log('node bin/brain-games.js')" > brain-games.js
+  484  cat brain-games.js 
+  485  nano brain-games.js 
+  486  cat brain-games.js 
+  487  nano brain-games.js 
+  488  node
+  489  brain-games.js
+  490  npm brain-games.js 
+  491  node brain-games.js 
+  492  cd frontend-project-44/
+  493  git pull
+  494  history
+  495  ssh-keygen -t ed25519 -C "alexxxts@gmail.com"
+  496  eval "$(ssh-agent -s)"
+  497  ssh-add ~/.ssh/id_ed25519
+  498  cat ~/.ssh/id_ed25519.pub
+  499  git pull
+  500  exit
+  501  git pull
+  502  cd frontend-project-44/
+  503  git pull
+  504  eval "$(ssh-agent -s)"
+  505  git pull
+  506  ssh-add ~/.ssh/id_ed25519
+  507  git pull
+  508  git status
+  509  cd ..
+  510  rm -r frontend-project-44/
+  511  ls -la
+  512  cd frontend-project-44/
+  513  ls -la
+  514  git pull
+  515  cd ..
+  516  history
+  517  git clone git@github.com:alexxxts/frontend-project-44.git
+  518  sudo rm -r frontend-project-44/
+  519  ls -la
+  520  git clone git@github.com:alexxxts/frontend-project-44.git
+  521  cd frontend-project-44/
+  522  ls -la
+  523  ssh-add -L
+  524  git config --list
+  525  GIT_SSH_COMMAND="ssh -vvv" git pull
+  526  cd frontend-project-44/
+  527  eval "$(ssh-agent -s)"
+  528  ssh-add ~/.ssh/id_ed25519
+  529  git pull
+  530  npm install readline-sync
+  531  ls -la
+  532  ls -la node_modules/
+  533  ls -la node_modules/readline-sync/
+  534  brain-games
+  535  make brain-games
+  536  touch src/cli.js
+  537  mkdir src
+  538  touch src/cli.js
+  539  ls -la src/
+  540  nano src/cli.js 
+  541  cat src/cli.js 
+  542  nano bin/brain-games.js 
+  543  history
+  544  make publish
+  545  make brain-games 
+  546  nano bin/brain-games.js 
+  547  make publish
+  548  make brain-games 
+  549  nano bin/brain-games.js 
+  550  make publish
+  551  make brain-games 
+  552  nano bin/brain-games.js 
+  553  make publish
+  554  make brain-games 
+  555  nano bin/brain-games.js 
+  556  make publish
+  557  make brain-games 
+  558  nano bin/brain-games.js 
+  559  make publish
+  560  make brain-games 
+  561  cat src/cli.js 
+  562  nano src/cli.js 
+  563  cat bin/brain-games.js 
+  564  cat src/cli.js 
+  565  nano bin/brain-games.js 
+  566  make publish
+  567  make brain-games 
+  568  nano bin/brain-games.js 
+  569  nano src/cli.js 
+  570  make publish
+  571  make brain-games 
+  572  nano src/cli.js 
+  573  make publish
+  574  make brain-games 
+  575  brain-games
+  576  cat package.json 
+  577  npm link
+  578  brain-games
+  579  git status
+  580  git add .
+  581  git status
+  582  git commit -m 'lesson 3'
+  583  git status
+  584  git push
+  585  brain-games
+  586  cd frontend-project-44/
+  587  history
+  588  eval "$(ssh-agent -s)"
+  589  ssh-add ~/.ssh/id_ed25519
+  590  ls -la
+  591  nano README.md 
+  592  cat README.md 
+  593  npm install --save-dev eslint
+  594  npm fund
+  595  npm install --save-dev eslint-config-airbnb-base
+  596  npm install --save-dev eslint-plugin-import
+  597  ls -la
+  598  ls -la node_modules/
+  599  cd node_modules/
+  600  cd eslint
+  601  ls -la
+  602  ls -la bin
+  603  ls -la conf
+  604  ls -la lib
+  605  cd ~
+  606  cd frontend-project-44/
+  607  ls -la
+  608  touch .eslintrc.yml
+  609  ls -la
+  610  rm .eslintrc.yml 
+  611  ls -la
+  612  npx eslint --init
+  613  ls -la
+  614  cat .eslintrc.yml 
+  615  nano .eslintrc.yml 
+  616  cat .eslintrc.yml 
+  617  npx eslint .
+  618  cat package.json 
+  619  tree -aL 1
+  620  cat .eslintrc.yml 
+  621  nano Makefile 
+  622  make lint
+  623  git status
+  624  git add .
+  625  git status
+  626  git commit -m 'Lesson 4. Part 1. Home.'
+  627  git push
+  628  cd frontend-project-44/
+  629  cat .eslintrc.yml 
+  630  ls -la
+  631  npm install --save-dev prettier
+  632  eval "$(ssh-agent -s)"
+  633  ssh-add ~/.ssh/id_ed25519
+  634  cd frontend-project-44/
+  635  npm install --save-dev prettier
+  636  cat .eslintrc.yml 
+  637  npx eslint .
+  638  git pull
+  639  cat package.json 
+  640  git status
+  641  git add .
+  642  git commit -m 'Lesson 4. Part 3. Home.'
+  643  git pull
+  644  git branc
+  645  git branch
+  646  git config pull.rebase true
+  647  git pull
+  648  ls -la
+  649  npx eslint .
+  650  node
+  651  cd frontend-project-44/
+  652  npx eslint .
+  653  ls -la
+  654  nano .eslintrc.yml 
+  655  npx eslint .
+  656  nano .eslintrc.yml 
+  657  cat .eslintrc.yml 
+  658  nano .eslintrc.yml 
+  659  npx eslint .
+  660  nano .eslintrc.yml 
+  661  npx eslint .
+  662  cat src/cli.js 
+  663  cat bin/brain-games.js 
+  664  nano src/cli.js 
+  665  npx eslint .
+  666  nano src/cli.js 
+  667  npx eslint .
+  668  nano src/cli.js 
+  669  npx eslint .
+  670  brain-games 
+  671  nano src/cli.js 
+  672  npx eslint .
+  673  nano src/cli.js 
+  674  npx eslint .
+  675  cat src/cli.js 
+  676  nano src/cli.js 
+  677  npx eslint .
+  678  cat src/cli.js 
+  679  nano src/cli.js 
+  680  npx eslint .
+  681  nano .eslintrc.yml 
+  682  npx eslint .
+  683  nano .eslintrc.yml 
+  684  npx eslint .
+  685  nano .eslintrc.yml 
+  686  npx eslint .
+  687  nano .eslintrc.yml 
+  688  npx eslint .
+  689  nano .eslintrc.yml 
+  690  npx eslint .
+  691  nano .eslintrc.yml 
+  692  npx eslint .
+  693  nano bin/brain-games.js 
+  694  nano src/cli.js 
+  695  npx eslint .
+  696  brain-games 
+  697  nano src/cli.js 
+  698  brain-games 
+  699  nano src/cli.js 
+  700  nano bin/brain-games.js 
+  701  npx eslint .
+  702  nano bin/brain-games.js 
+  703  npx eslint .
+  704  nano bin/brain-games.js 
+  705  npx eslint .
+  706  nano src/cli.js 
+  707  npx eslint .
+  708  nano src/cli.js 
+  709  npx eslint .
+  710  nano src/cli.js 
+  711  npx eslint .
+  712  nano .eslintrc.yml 
+  713  npx eslint .
+  714  brain-games 
+  715  git add .
+  716  git commit -m 'Lesson 4. Final. Home.'
+  717  git push
+  718  eval "$(ssh-agent -s)"
+  719  ssh-add ~/.ssh/id_ed25519
+  720  git push
+  721  brain-games 
+  722  npx eslint .
+  723  cat bin/brain-games.js
+  724  touch bin/brain-even.js
+  725  ls -la bin
+  726  cat bin/'brain-games.js\'
+  727  cat bin/brain-games.js
+  728  nano package.json 
+  729  cat package.json 
+  730  cat src/cli.js 
+  731  ls -la
+  732  ls -la node_modules/
+  733  ls -la node_modules/readline-sync/
+  734  ls -la node_modules/readline-sync/lib/
+  735  cat node_modules/readline-sync/lib/encrypt.js 
+  736  cat node_modules/readline-sync/lib/readline-sync.js 
+  737  cat src/cli.js 
+  738  cat bin/brain-
+  739  cat bin/brain-games.js
+  740  git add .
+  741  git commit -m 'Lesson 5. Part 1. Home.'
+  742  git push
+  743  brain-games 
+  744  git status
+  745  git push
+  746  exit
+  747  cd frontend-project-44/
+  748  eval "$(ssh-agent -s)"
+  749  ssh-add ~/.ssh/id_ed25519
+  750  git log
+  751  git show cb3869a
+  752  history > h.log
