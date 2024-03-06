@@ -1,0 +1,329 @@
+    1  ls -la
+    2  cd ..
+    3  ls -la
+    4  cd
+    5  ls -la
+    6  cat .bash_history 
+    7  exit
+    8  ls -la
+    9  sudo apt update && sudo apt upgrade
+   10  exit
+   11  sudo apt-get update
+   12  sudo apt-get install wget ca-certificates
+   13  mkdir projects
+   14  cd projects
+   15  mkdir pr001
+   16  cd pr001
+   17  code .
+   18  ls $home\.vscode\extension
+   19  ls $HOME\.vscode\extension
+   20  cd ..
+   21  ls -la
+   22  cd alexxxts
+   23  ls -la
+   24  sudo apt install git-all
+   25  git config --global user.name "Sasha Tsaplin"
+   26  git config --global user.email "alexxxts@gmail.com"
+   27  get --list
+   28  get config --list
+   29  git config --list
+   30  cls
+   31  clear
+   32  sudo apt install nodejs
+   33  nodejs -v
+   34  exit
+   35  nodejs -v
+   36  node -v
+   37  sudo apt update 
+   38  sudo apt install nodejs
+   39  nodejs -v
+   40  nodejs -h
+   41  nodejs --help
+   42  sudo apt install npm
+   43  nodejs -v
+   44  npm -v
+   45  nvm list-remote
+   46  cd projects\pr001
+   47  cd projects/
+   48  cd pr001/
+   49  node .
+   50  node
+   51  nvm install node
+   52  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   53  node
+   54  nvm install node
+   55  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   56  wget -q0- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   57  sudo apt-get install wget ca-certificates
+   58  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   59  nvm -h
+   60  nvm list-remote
+   61  node
+   62  node -v
+   63  sudo apt update
+   64  sudo apt install nodejs
+   65  node
+   66  uname -m
+   67  hostnamectl
+   68  lsb_release -a
+   69  sudo apt remove nodejs -y
+   70  sudo apt purge nodejs -y
+   71  curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash -
+   72  exit
+   73  node -v
+   74  node
+   75  sudo apt-get install -y nodejs
+   76  node -v
+   77  sudo apt remove nodejs -y
+   78  sudo apt purge nodejs -y
+   79  wsl -l -v
+   80  curl -v
+   81  sudo apt-get install curl
+   82  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+   83  command -v nvm
+   84  nvm ls
+   85  nvm install --lts
+   86  nvm install node
+   87  nvm ls
+   88  node
+   89  node -v
+   90  which npm
+   91  npm -v
+   92  sudo apt update && sudo apt upgrade
+   93  man chmod
+   94  ls -al ~/.ssh
+   95  ls -la
+   96  ssh-keygen -t ed25519 -C "alexxxts@gmail.com"
+   97  eval "$(ssh-agent -s)"
+   98  ssh-add ~/.ssh/id_ed25519
+   99  cat ~/.ssh/id_ed25519.pub
+  100  ls -la
+  101  cd projects
+  102  ls -la
+  103  mkdir hexlet-git
+  104  ls -la
+  105  cd hexlet-git
+  106  git init
+  107  ls -la
+  108  git status
+  109  echo 'Hello, Hexlet!' > README.md
+  110  echo 'Haskell Curry' > PEOPLE.md
+  111  ls -la
+  112  git status
+  113  git add README.md 
+  114  git status
+  115  git commit -m 'add README.md'
+  116  git add PEOPLE.md 
+  117  git commit -m 'add PEOPLE.md'
+  118  git status
+  119  ls -a
+  120  ls -la
+  121  git status
+  122  ls -la
+  123  git remote add origin git@github.com:hexlet-git/hexlet-git.git
+  124  git branch -M main
+  125  git push -u origin main
+  126  git remote add origin git@github.com:alexxxts/hexlet-git.git
+  127  git branch -M main
+  128  git push -u origin main
+  129  git remote -v
+  130  git remote set-url origin https://github.com/alexxxts/hexlet-git.git
+  131  git remote -v
+  132  git branch -M main
+  133  git push -u origin main
+  134  git remote -v
+  135  git remote set-url origin git@github.com:alexxxts/hexlet-git.git
+  136  git branch -M main
+  137  git push -u origin main
+  138  ls -a
+  139  git push
+  140  ls -la
+  141  cat PEOPLE.md 
+  142  echo 'hello' >> PEOPLE.md 
+  143  cat PEOPLE.md 
+  144  git push
+  145  cat PEOPLE.md 
+  146  git status
+  147  git commit -a
+  148  git commit -m "change PEOPLE +hello"
+  149  git commit -a -m "PEOPLE"
+  150  git status
+  151  git push
+  152  git pull
+  153  ls -la
+  154  export PS1="💻 \[\e[1;34m\]\W\[\e[m\]\[\033[32m\]\$(__git_ps1)\[\033[00m\] $ "
+  155  cd projects/hexlet-git/
+  156  export PS1="💻 \[\e[1;34m\]\W\[\e[m\]\[\033[32m\]\$(__git_ps1)\[\033[00m\] $ "
+  157  cd projects/hexlet-git/
+  158  git pull
+  159  git log
+  160  ls -la
+  161  touch .gitignore
+  162  ls -la
+  163  echo "/INFO.md" > .gitignore
+  164  cat .gitignore 
+  165  git commit -a -m 'update gitignore'
+  166  git add .gitignore
+  167  git commit -a -m 'update gitignore'
+  168  git rm INFO.md 
+  169  git commit -a -m 'update gitignore'
+  170  ls -la
+  171  touch INFO.md
+  172  ls -la
+  173  git status
+  174  git push
+  175  ls -la
+  176  exit
+  177  cd projects/hexlet-git/
+  178  git pull
+  179  git status
+  180  cat ~/.ssh/id_ed25519.pub
+  181  history
+  182  git pull
+  183  ls -la
+  184  git clone git@github.com:alexxxts/frontend-project-44.git
+  185  ls -la
+  186  cd frontend-project-44/
+  187  ls -la
+  188  sudo apt-get update
+  189  sudo apt-get dist-upgrade
+  190  npm init
+  191  ls -la
+  192  mkdir bin
+  193  ls -la
+  194  touch bin/brain-games.js
+  195  echo 'node bin/brain-games.js' > bin/brain-games.js 
+  196  echo 'Welcome to the Brain Games!' >> bin/brain-games.js 
+  197  cat bin/brain-games.js 
+  198  git status
+  199  ls -la
+  200  cat package.json 
+  201  sudo npm install -g npm
+  202  cd ..
+  203  sudo npm install -g npm
+  204  sudo apt install nodejs
+  205  sudo npm install -g npm
+  206  node -v
+  207  npm -v
+  208  sudo apt autoremove
+  209  npm -v
+  210  node -v
+  211  cd frontend-project-44/
+  212  cat package.json 
+  213  nano package.json 
+  214  cat package.json 
+  215  ls -la
+  216  npm init
+  217  touch Makefile
+  218  ls -la
+  219  nano Makefile 
+  220  cat Makefile 
+  221  echo 'node_modules/' > .gitignore
+  222  cat .gitignore 
+  223  nano Makefile 
+  224  cat Makefile 
+  225  cat package.json 
+  226  nano Makefile 
+  227  nano package.json 
+  228  cat package.json 
+  229  cd frontend-project-44/
+  230  nano bin/brain-games.js 
+  231  cat bin/brain-games.js 
+  232  nano package.json 
+  233  cat package.json 
+  234  chmod +x bin/brain-games.js 
+  235  nano Makefile 
+  236  cat Makefile 
+  237  make publish 
+  238  npm link
+  239  brain-games 
+  240  sudo npm link
+  241  cat Makefile 
+  242  make brain-games 
+  243  cat bin/brain-games.js 
+  244  nano bin/brain-games.js 
+  245  make publish 
+  246  brain-games 
+  247  node bin/brain-games.js 
+  248  nano bin/brain-games.js 
+  249  node bin/brain-games.js 
+  250  make publish 
+  251  brain-games 
+  252  git add .
+  253  git status
+  254  git commit -m 'lesson 2'
+  255  git status
+  256  git push
+  257  reboot
+  258  sudo reboot
+  259  git push
+  260  cd frontend-project-44/
+  261  git push
+  262  ssh-add -L
+  263  git pull
+  264  git config --list
+  265  GIT_SSH_COMMAND="ssh -vvv" git pull
+  266  cd frontend-project-44/
+  267  git pull
+  268  cd frontend-project-44/
+  269  git pull
+  270  ls -la
+  271  cat .eslintrc.yml 
+  272  npm install --save-dev eslint
+  273  npm install --save-dev eslint-config-airbnb-base
+  274  npm install --save-dev eslint-plugin-import
+  275  npm init @eslint/config
+  276  cat .eslintrc.yml 
+  277  cd frontend-project-44/
+  278  cat .eslintrc.yml 
+  279  nano .eslintrc.yml 
+  280  cat .eslintrc.yml 
+  281  ls -la
+  282  npm install --save-dev prettier
+  283  cat .eslintrc.yml 
+  284  npx eslint .
+  285  git add .
+  286  git commit -m 'Lesson 4. Part 2. Mini.'
+  287  git push
+  288  cat package.json 
+  289  git branch
+  290  git pull
+  291  cat bin/brain-games.js
+  292  npx eslint .
+  293  cat src/cli.js 
+  294  cat .eslintrc.yml 
+  295  cd frontend-project-44/
+  296  git pull
+  297  ls -la
+  298  cat src/even-logic.js 
+  299  nano bin/brain-even.js 
+  300  cat bin/brain-even.js 
+  301  nano src/even-logic.js 
+  302  cat bin/brain-even.js 
+  303  nano bin/brain-even.js 
+  304  make lint
+  305  nano bin/brain-even.js 
+  306  make lint
+  307  nano src/even-logic.js 
+  308  make lint
+  309  cat Makefile 
+  310  nano Makefile 
+  311  cat Makefile 
+  312  ls -la bin
+  313  cat h.log 
+  314  make publish 
+  315  brain-even
+  316  brain-games
+  317  make brain-even
+  318  nano src/even-logic.js 
+  319  nano bin/brain-even.js 
+  320  nano src/even-logic.js 
+  321  make publish 
+  322  make brain-even
+  323  nano src/even-logic.js 
+  324  make publish 
+  325  make brain-even
+  326  cat Makefile 
+  327  npm link
+  328  brain-even
+  329  history > h-mini.log
