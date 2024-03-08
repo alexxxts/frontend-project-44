@@ -8,11 +8,11 @@ export const startEven = () => {
   const correctAnswer2 = (randomExp2 % 2 === 0) ? 'yes' : 'no';
   const randomExp3 = Math.round(Math.random() * 100);
   const correctAnswer3 = (randomExp3 % 2 === 0) ? 'yes' : 'no';
-  const evenMathArr = [
+  const mathArr = [
     [randomExp1, correctAnswer1],
     [randomExp2, correctAnswer2],
     [randomExp3, correctAnswer3],
   ];
 
-  return checkAnswer(mainQuestion, evenMathArr);
+  return console.log(checkAnswer(mainQuestion, mathArr));
 };
