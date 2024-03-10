@@ -8,7 +8,7 @@ const gcd = (a, b) => {
 };
 
 export const startGcd = () => {
-  const mainQuestion = 'What is the result of the expression?';
+  const mainQuestion = 'Find the greatest common divisor of given numbers.';
   const mathArr = [
     [null, null],
     [null, null],
