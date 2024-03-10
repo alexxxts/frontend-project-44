@@ -1,4 +1,4 @@
-import { checkAnswer } from '../index.js';
+import checkAnswer from '../index.js';
 
 const isPrime = (number) => {
   for (let i = 2; i < number; i += 1) {
@@ -9,7 +9,7 @@ const isPrime = (number) => {
   return number !== 1;
 };
 
-export const startPrime = () => {
+export default function startPrime() {
   const mainQuestion = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   const mathArr = [
     [null, null],
@@ -22,4 +22,4 @@ export const startPrime = () => {
     mathArr[i][1] = (isPrime(mathArr[i][0])) ? 'yes' : 'no';
   }
   return console.log(checkAnswer(mainQuestion, mathArr));
-};
+}

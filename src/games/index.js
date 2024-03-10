@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export const checkAnswer = (mainQuestion, mathArr) => {
+export default function checkAnswer(mainQuestion, mathArr) {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   let userAnswer = '';
@@ -19,4 +19,4 @@ export const checkAnswer = (mainQuestion, mathArr) => {
     }
   }
   return `Congratulations, ${userName}!`;
-};
+}

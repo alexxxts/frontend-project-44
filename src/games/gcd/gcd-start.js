@@ -1,4 +1,4 @@
-import { checkAnswer } from '../index.js';
+import checkAnswer from '../index.js';
 
 const gcd = (a, b) => {
   if (b === 0) {
@@ -7,7 +7,7 @@ const gcd = (a, b) => {
   return gcd(b, a % b);
 };
 
-export const startGcd = () => {
+export default function startGcd() {
   const mainQuestion = 'Find the greatest common divisor of given numbers.';
   const mathArr = [
     [null, null],
@@ -24,4 +24,4 @@ export const startGcd = () => {
     mathArr[i][1] = String(gcd(a, b));
   }
   return console.log(checkAnswer(mainQuestion, mathArr));
-};
+}

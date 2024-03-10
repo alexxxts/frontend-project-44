@@ -1,4 +1,4 @@
-import { checkAnswer } from '../index.js';
+import checkAnswer from '../index.js';
 
 const makeProgression = (step, start, number, position) => {
   const arrProgression = [];
@@ -24,7 +24,7 @@ function randomMinMax(min, max) {
   return Math.floor(rand);
 }
 
-export const startProgression = () => {
+export default function startProgression() {
   const mainQuestion = 'What number is missing in the progression?';
   const mathArr = [
     [null, null],
@@ -45,4 +45,4 @@ export const startProgression = () => {
     mathArr[i][1] = String(startTermProg + stepProg * (posHideProg - 1));
   }
   return console.log(checkAnswer(mainQuestion, mathArr));
-};
+}

@@ -1,6 +1,6 @@
-import { checkAnswer } from '../index.js';
+import checkAnswer from '../index.js';
 
-export const startEven = () => {
+export default function startEven() {
   const mainQuestion = 'Answer "yes" if the number is even, otherwise answer "no".';
   const mathArr = [
     [null, null],
@@ -13,4 +13,4 @@ export const startEven = () => {
     mathArr[i][1] = (mathArr[i][0] % 2 === 0) ? 'yes' : 'no';
   }
   return console.log(checkAnswer(mainQuestion, mathArr));
-};
+}

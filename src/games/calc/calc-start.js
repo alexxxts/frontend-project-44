@@ -1,6 +1,6 @@
-import { checkAnswer } from '../index.js';
+import checkAnswer from '../index.js';
 
-export const startCalc = () => {
+export default function startCalc() {
   const mainQuestion = 'What is the result of the expression?';
   const mathArr = [
     [null, null],
@@ -27,4 +27,4 @@ export const startCalc = () => {
     }
   }
   return console.log(checkAnswer(mainQuestion, mathArr));
-};
+}
